@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogtheme>
+    
+    <id>frontpage</id>
+    <name>Frontpage</name>
+    <author>Dave Johnson</author>
+    <type>standard</type>
+    
+    <!-- theme preview image -->
+    <preview-image path="sm-theme-frontpage.png" />
+    
+    <!-- templates -->
+    <template action="weblog">
+        <name>Weblog</name>
+        <description>Weblog</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+        <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>Weblog.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_blogdirectory</name>
+        <description>_blogdirectory</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+         <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_blogdirectory.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_blogprofile</name>
+        <description>_blogprofile</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+        <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_blogprofile.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_blogs</name>
+        <description>_blogs</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+        <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_blogs.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_css</name>
+        <description>_css</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+        <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_css.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_day</name>
+        <description>_day</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+        <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_day.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_decorator</name>
+        <description>_decorator</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+        <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_decorator.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_entry</name>
+        <description>_entry</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+        <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_entry.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_footer</name>
+        <description>_footer</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+        <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_footer.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>_header</name>
+        <description>_header</description>
+	<link></link>
+        <navbar>false</navbar>
+        <hidden>true</hidden>
+         <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>_header.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <template action="custom">
+        <name>directory</name>
+        <description>weblog directory</description>
+	<link>directory</link>
+        <navbar>false</navbar>
+        <hidden>false</hidden>
+         <templateCode>
+           <templateLanguage>velocity</templateLanguage>
+           <contentType>text/html</contentType>
+           <contentsFile>directory.vm</contentsFile>
+           <type>standard</type>
+       </templateCode>
+    </template>
+    
+    <!-- resources -->
+    <resource path="roller-tan-logo.gif" />
+    <resource path="tan-banner.gif" />
+    
+</weblogtheme>
